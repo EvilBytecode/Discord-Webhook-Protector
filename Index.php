@@ -259,7 +259,7 @@ class RateLimiter {
             "embeds" => $embeds
         ]);
         if ($this->isDuplicateRequest($payload)) {
-            echo "Duplicate request detected";
+           // echo "Duplicate request detected";
             exit();
         }
         $ch = curl_init($this->webhook_url);
