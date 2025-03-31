@@ -32,5 +32,12 @@ $request_custom = "SIGMA"; // replace with your custom request header
 - The script will process the request, validate the rate limit, check for blacklisted IPs, and ensure the request method and headers are correct.
 - Check ```Client-Example.go``` or ```Client-Example-Windows.bat``` or ```Client-Example_Unix.bat``` for usage examples
 
-## License
-- This project is licensed under the Creative Commons Attribution 4.0 International License - see the [LICENSE](LICENSE) file for details.
+# License
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
